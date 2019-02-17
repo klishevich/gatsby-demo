@@ -13,7 +13,7 @@ const FourthPage = ({ data }) => {
       <Menu />
       <h1>Page 4. Data from MD files</h1>
       { nodes.map(({node}) => (
-        <div>
+        <div key={node.id}>
           <h2>{node.frontmatter.title}</h2>
           <b>Created at {node.frontmatter.date}</b>
           <div>{node.excerpt}</div>

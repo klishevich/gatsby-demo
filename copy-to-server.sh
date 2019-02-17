@@ -1,4 +1,4 @@
-d=$(date +%Y%m%d)
+d=$(date +%Y%m%d%H%M%S)
 echo $d
 zip -r public.zip public
 scp public.zip busation.ru:"/home/mike/nginx_apps/gatsby/"
