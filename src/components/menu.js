@@ -15,6 +15,9 @@ const Menu = () => (
     <div>
       <Link to="/page-4">Page 4: Data from Markdown files</Link>
     </div>
+    <div>
+      <Link to="/page-5">Page 5: Query Data Build Time</Link>
+    </div>
     <br/>
   </React.Fragment>
 );

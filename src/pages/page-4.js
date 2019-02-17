@@ -9,7 +9,7 @@ const FourthPage = ({ data }) => {
   const nodes = data.allMarkdownRemark.edges;
   return (
     <Layout>
-      <SEO title="Page three" />
+      <SEO title="Page 4" />
       <Menu />
       <h1>Page 4. Data from MD files</h1>
       { nodes.map(({node}) => (
